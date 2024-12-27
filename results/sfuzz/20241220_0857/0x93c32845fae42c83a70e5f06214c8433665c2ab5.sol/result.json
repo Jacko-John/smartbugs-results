@@ -1,0 +1,60 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+            "function": "AddMessage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+            "function": "AddMessage",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "X_WALLET.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+            "function": "Collect",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "X_WALLET.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+            "function": "Put",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "X_WALLET.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+            "function": "",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "X_WALLET.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+            "function": "Collect",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "X_WALLET.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+            "function": "Put",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "X_WALLET.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol",
+            "function": "",
+            "name": "Reentrancy"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

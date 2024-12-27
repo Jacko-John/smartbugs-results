@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "name": "DAO"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "name": "MissingInputValidation"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "name": "TODTransfer"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

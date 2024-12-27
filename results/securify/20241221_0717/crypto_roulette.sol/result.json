@@ -1,0 +1,20 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "name": "TODAmount"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "name": "TODTransfer"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

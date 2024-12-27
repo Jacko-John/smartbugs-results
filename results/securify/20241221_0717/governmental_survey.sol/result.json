@@ -1,0 +1,36 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/time_manipulation/governmental_survey.sol",
+            "name": "TODAmount"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/time_manipulation/governmental_survey.sol",
+            "name": "MissingInputValidation"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/time_manipulation/governmental_survey.sol",
+            "name": "TODTransfer"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/time_manipulation/governmental_survey.sol",
+            "name": "TODReceiver"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/time_manipulation/governmental_survey.sol",
+            "name": "DAOConstantGas"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/time_manipulation/governmental_survey.sol",
+            "name": "UnhandledException"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

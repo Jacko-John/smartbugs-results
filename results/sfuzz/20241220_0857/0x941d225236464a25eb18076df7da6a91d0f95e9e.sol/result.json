@@ -1,0 +1,60 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "ETH_FUND.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+            "function": "CashOut",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "ETH_FUND.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+            "function": "Deposit",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "ETH_FUND.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+            "function": "",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "ETH_FUND.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+            "function": "CashOut",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "ETH_FUND.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+            "function": "Deposit",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "ETH_FUND.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+            "function": "AddMessage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+            "function": "AddMessage",
+            "name": "Timestamp Dependency"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

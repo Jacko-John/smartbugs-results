@@ -1,0 +1,25 @@
+Extract contract EBU from /sb/0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol
+Extracted 1 contract(s) from /sb/0xa46edd6a9a93feec36576ee5048146870ea2c3ae.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/EBU.sol:16:13: Warning: Return value of low-level calls not used.
+            caddress.call(id,from,_tos[i],v[i]);
+            ^---------------------------------^
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz EBU
+** Write stats: 0.011562
+** Write stats: 5.01684
+** Write stats: 10.0387
+** Write stats: 15.0146
+** Write stats: 20.0448
+** Write stats: 49.5183

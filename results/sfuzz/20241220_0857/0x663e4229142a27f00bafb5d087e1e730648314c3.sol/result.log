@@ -1,0 +1,2294 @@
+Extract contract ClockAuction from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract ClockAuctionBase from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract ERC721Metadata from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract Ownable from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract PandaAccessControl from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract PandaAuction from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract PandaBase from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract PandaBreeding from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract PandaCore from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract PandaMinting from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract PandaOwnership from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract Pausable from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract SaleClockAuction from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract SaleClockAuctionERC20 from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extract contract SiringClockAuction from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+Extracted 15 contract(s) from /sb/0x663e4229142a27f00bafb5d087e1e730648314c3.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/Pausable.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/Pausable.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/Pausable.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/Pausable.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/Pausable.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/Pausable.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/Pausable.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/Pausable.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/Pausable.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/Pausable.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/Pausable.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/Pausable.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/Pausable.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/Pausable.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/Pausable.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/Pausable.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/Pausable.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/Pausable.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/Pausable.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/Pausable.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/Pausable.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/Pausable.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/Pausable.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/Pausable.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/Pausable.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/Pausable.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/Pausable.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/Pausable.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/Pausable.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/Pausable.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/Pausable.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/Pausable.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Pausable.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/PandaCore.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/PandaCore.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/PandaCore.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/PandaCore.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/PandaCore.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/PandaCore.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/PandaCore.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/PandaCore.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaCore.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/PandaCore.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/PandaCore.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/PandaCore.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/PandaCore.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaCore.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/PandaCore.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/PandaCore.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/PandaCore.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/PandaCore.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/PandaCore.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/PandaCore.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/PandaCore.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/PandaCore.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/PandaCore.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/PandaCore.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/PandaCore.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/PandaCore.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/PandaCore.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/PandaCore.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/PandaCore.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/PandaCore.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/PandaCore.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaCore.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/SaleClockAuctionERC20.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/SaleClockAuctionERC20.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/SaleClockAuctionERC20.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/SaleClockAuctionERC20.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/SaleClockAuctionERC20.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/SaleClockAuctionERC20.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/SaleClockAuctionERC20.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/SaleClockAuctionERC20.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/SaleClockAuctionERC20.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/SaleClockAuctionERC20.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/SaleClockAuctionERC20.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/SaleClockAuctionERC20.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/SaleClockAuctionERC20.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/SaleClockAuctionERC20.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/SaleClockAuctionERC20.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/SaleClockAuctionERC20.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/SaleClockAuctionERC20.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/SaleClockAuctionERC20.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/SaleClockAuctionERC20.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/SaleClockAuctionERC20.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuctionERC20.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/SiringClockAuction.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/SiringClockAuction.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/SiringClockAuction.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/SiringClockAuction.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/SiringClockAuction.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/SiringClockAuction.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/SiringClockAuction.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/SiringClockAuction.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/SiringClockAuction.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/SiringClockAuction.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/SiringClockAuction.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/SiringClockAuction.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/SiringClockAuction.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/SiringClockAuction.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/SiringClockAuction.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/SiringClockAuction.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/SiringClockAuction.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/SiringClockAuction.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/SiringClockAuction.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/SiringClockAuction.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/SiringClockAuction.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/SiringClockAuction.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/SiringClockAuction.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/SiringClockAuction.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/SiringClockAuction.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/SiringClockAuction.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/SiringClockAuction.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/SiringClockAuction.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/SiringClockAuction.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/SiringClockAuction.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/SiringClockAuction.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SiringClockAuction.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/PandaBreeding.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/PandaBreeding.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/PandaBreeding.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/PandaBreeding.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/PandaBreeding.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/PandaBreeding.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/PandaBreeding.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/PandaBreeding.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaBreeding.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/PandaBreeding.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/PandaBreeding.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/PandaBreeding.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/PandaBreeding.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaBreeding.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/PandaBreeding.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/PandaBreeding.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/PandaBreeding.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/PandaBreeding.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/PandaBreeding.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/PandaBreeding.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/PandaBreeding.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/PandaBreeding.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/PandaBreeding.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/PandaBreeding.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/PandaBreeding.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/PandaBreeding.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/PandaBreeding.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/PandaBreeding.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/PandaBreeding.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/PandaBreeding.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/PandaBreeding.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBreeding.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/ERC721Metadata.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/ERC721Metadata.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/ERC721Metadata.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/ERC721Metadata.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/ERC721Metadata.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/ERC721Metadata.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/ERC721Metadata.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/ERC721Metadata.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/ERC721Metadata.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/ERC721Metadata.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/ERC721Metadata.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/ERC721Metadata.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/ERC721Metadata.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/ERC721Metadata.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/ERC721Metadata.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/ERC721Metadata.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/ERC721Metadata.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/ERC721Metadata.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/ERC721Metadata.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/ERC721Metadata.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/ERC721Metadata.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/ERC721Metadata.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/ERC721Metadata.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/ERC721Metadata.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/ERC721Metadata.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/ERC721Metadata.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/ERC721Metadata.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/ERC721Metadata.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/ERC721Metadata.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/ERC721Metadata.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/ERC721Metadata.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ERC721Metadata.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/PandaAuction.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/PandaAuction.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/PandaAuction.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/PandaAuction.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/PandaAuction.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/PandaAuction.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/PandaAuction.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/PandaAuction.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaAuction.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/PandaAuction.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/PandaAuction.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/PandaAuction.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/PandaAuction.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaAuction.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/PandaAuction.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/PandaAuction.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/PandaAuction.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/PandaAuction.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/PandaAuction.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/PandaAuction.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/PandaAuction.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/PandaAuction.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/PandaAuction.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/PandaAuction.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/PandaAuction.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/PandaAuction.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/PandaAuction.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/PandaAuction.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/PandaAuction.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/PandaAuction.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/PandaAuction.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAuction.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/SaleClockAuction.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/SaleClockAuction.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/SaleClockAuction.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/SaleClockAuction.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/SaleClockAuction.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/SaleClockAuction.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/SaleClockAuction.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/SaleClockAuction.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/SaleClockAuction.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/SaleClockAuction.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/SaleClockAuction.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/SaleClockAuction.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/SaleClockAuction.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/SaleClockAuction.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/SaleClockAuction.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/SaleClockAuction.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/SaleClockAuction.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/SaleClockAuction.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/SaleClockAuction.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/SaleClockAuction.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/SaleClockAuction.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/SaleClockAuction.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/SaleClockAuction.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/SaleClockAuction.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/SaleClockAuction.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/SaleClockAuction.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/SaleClockAuction.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/SaleClockAuction.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/SaleClockAuction.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/SaleClockAuction.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/SaleClockAuction.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/SaleClockAuction.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/Ownable.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/Ownable.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/Ownable.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/Ownable.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/Ownable.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/Ownable.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/Ownable.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/Ownable.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/Ownable.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/Ownable.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/Ownable.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/Ownable.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/Ownable.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/Ownable.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/Ownable.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/Ownable.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/Ownable.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/Ownable.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/Ownable.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/Ownable.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/Ownable.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/Ownable.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/Ownable.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/Ownable.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/Ownable.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/Ownable.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/Ownable.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/Ownable.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/Ownable.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/Ownable.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/Ownable.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Ownable.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/ClockAuctionBase.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/ClockAuctionBase.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/ClockAuctionBase.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/ClockAuctionBase.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/ClockAuctionBase.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/ClockAuctionBase.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/ClockAuctionBase.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/ClockAuctionBase.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/ClockAuctionBase.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/ClockAuctionBase.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/ClockAuctionBase.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/ClockAuctionBase.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/ClockAuctionBase.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/ClockAuctionBase.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/ClockAuctionBase.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/ClockAuctionBase.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/ClockAuctionBase.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/ClockAuctionBase.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/ClockAuctionBase.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/ClockAuctionBase.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/ClockAuctionBase.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/ClockAuctionBase.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/ClockAuctionBase.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/ClockAuctionBase.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/ClockAuctionBase.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/ClockAuctionBase.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/ClockAuctionBase.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/ClockAuctionBase.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/ClockAuctionBase.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/ClockAuctionBase.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/ClockAuctionBase.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuctionBase.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/PandaOwnership.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/PandaOwnership.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/PandaOwnership.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/PandaOwnership.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/PandaOwnership.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/PandaOwnership.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/PandaOwnership.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/PandaOwnership.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaOwnership.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/PandaOwnership.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/PandaOwnership.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/PandaOwnership.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/PandaOwnership.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaOwnership.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/PandaOwnership.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/PandaOwnership.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/PandaOwnership.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/PandaOwnership.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/PandaOwnership.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/PandaOwnership.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/PandaOwnership.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/PandaOwnership.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/PandaOwnership.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/PandaOwnership.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/PandaOwnership.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/PandaOwnership.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/PandaOwnership.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/PandaOwnership.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/PandaOwnership.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/PandaOwnership.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/PandaOwnership.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaOwnership.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/PandaAccessControl.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/PandaAccessControl.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/PandaAccessControl.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/PandaAccessControl.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/PandaAccessControl.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/PandaAccessControl.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/PandaAccessControl.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/PandaAccessControl.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaAccessControl.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/PandaAccessControl.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/PandaAccessControl.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/PandaAccessControl.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/PandaAccessControl.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaAccessControl.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/PandaAccessControl.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/PandaAccessControl.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/PandaAccessControl.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/PandaAccessControl.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/PandaAccessControl.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/PandaAccessControl.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/PandaAccessControl.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/PandaAccessControl.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/PandaAccessControl.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/PandaAccessControl.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/PandaAccessControl.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/PandaAccessControl.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/PandaAccessControl.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/PandaAccessControl.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/PandaAccessControl.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/PandaAccessControl.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/PandaAccessControl.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaAccessControl.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/PandaMinting.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/PandaMinting.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/PandaMinting.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/PandaMinting.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/PandaMinting.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/PandaMinting.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/PandaMinting.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/PandaMinting.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaMinting.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/PandaMinting.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/PandaMinting.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/PandaMinting.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/PandaMinting.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaMinting.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/PandaMinting.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/PandaMinting.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/PandaMinting.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/PandaMinting.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/PandaMinting.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/PandaMinting.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/PandaMinting.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/PandaMinting.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/PandaMinting.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/PandaMinting.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/PandaMinting.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/PandaMinting.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/PandaMinting.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/PandaMinting.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/PandaMinting.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/PandaMinting.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/PandaMinting.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaMinting.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/ClockAuction.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/ClockAuction.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/ClockAuction.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/ClockAuction.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/ClockAuction.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/ClockAuction.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/ClockAuction.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/ClockAuction.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/ClockAuction.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/ClockAuction.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/ClockAuction.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/ClockAuction.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/ClockAuction.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/ClockAuction.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/ClockAuction.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/ClockAuction.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/ClockAuction.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/ClockAuction.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/ClockAuction.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/ClockAuction.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/ClockAuction.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/ClockAuction.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/ClockAuction.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/ClockAuction.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/ClockAuction.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/ClockAuction.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/ClockAuction.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/ClockAuction.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/ClockAuction.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/ClockAuction.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/ClockAuction.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ClockAuction.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:35:3: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:770:9: Warning: Use of the "var" keyword is deprecated.
+        var outputString = new string(_stringLength);
+        ^--------------^
+contracts/PandaBase.sol:1474:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ClockAuction(address _nftAddress, uint256 _cut) public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:1627:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SiringClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:1706:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuction(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:1858:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SaleClockAuctionERC20(address _nftAddr, uint256 _cut) public
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:2360:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function PandaCore() public {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:404:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(_from, _to, _tokenId);
+        ^----------------------------^
+contracts/PandaBase.sol:491:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Birth(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:662:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Approval(msg.sender, _to, _tokenId);
+        ^---------------------------------^
+contracts/PandaBase.sol:1025:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Pregnant(pandaIndexToOwner[_matronId], _matronId, _sireId, matron.cooldownEndBlock);
+        ^---------------------------------------------------------------------------------^
+contracts/PandaBase.sol:1131:21: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                    ^-----------------------------------------------^
+contracts/PandaBase.sol:1136:13: Warning: Invoking events without "emit" prefix is deprecated.
+            Abortion(pandaIndexToOwner[_matronId], _matronId, sireId);
+            ^-------------------------------------------------------^
+contracts/PandaBase.sol:1152:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        msg.sender.send(autoBirthFee);
+        ^---------------------------^
+contracts/PandaBase.sol:1237:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCreated(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:1249:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionCancelled(_tokenId);
+        ^------------------------^
+contracts/PandaBase.sol:1310:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaBase.sol:1444:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Pause();
+    ^-----^
+contracts/PandaBase.sol:1453:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Unpause();
+    ^-------^
+contracts/PandaBase.sol:1496:36: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        bool res = nftAddress.send(this.balance);
+                                   ^----------^
+contracts/PandaBase.sol:1808:25: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                        ^----------------------------------------------------------------------^
+contracts/PandaBase.sol:1918:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionERC20Created(
+        ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:2013:9: Warning: Invoking events without "emit" prefix is deprecated.
+        AuctionSuccessful(_tokenId, price, msg.sender);
+        ^--------------------------------------------^
+contracts/PandaBase.sol:2398:9: Warning: Invoking events without "emit" prefix is deprecated.
+        ContractUpgrade(_v2Address);
+        ^-------------------------^
+contracts/PandaBase.sol:2461:27: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint256 balance = this.balance;
+                          ^----------^
+contracts/PandaBase.sol:2467:13: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+            cfoAddress.send(balance - subtractFees);
+            ^-------------------------------------^
+contracts/PandaBase.sol:11:5: Warning: No visibility specified. Defaulting to "public". 
+    function totalSupply() constant returns (uint supply);
+    ^----------------------------------------------------^
+contracts/PandaBase.sol:12:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf( address who ) constant returns (uint value);
+    ^--------------------------------------------------------------^
+contracts/PandaBase.sol:13:5: Warning: No visibility specified. Defaulting to "public". 
+    function allowance( address owner, address spender ) constant returns (uint _allowance);
+    ^--------------------------------------------------------------------------------------^
+contracts/PandaBase.sol:15:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer( address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------^
+contracts/PandaBase.sol:16:5: Warning: No visibility specified. Defaulting to "public". 
+    function transferFrom( address from, address to, uint value) returns (bool ok);
+    ^-----------------------------------------------------------------------------^
+contracts/PandaBase.sol:17:5: Warning: No visibility specified. Defaulting to "public". 
+    function approve( address spender, uint value ) returns (bool ok);
+    ^----------------------------------------------------------------^
+contracts/PandaBase.sol:35:3: Warning: No visibility specified. Defaulting to "public". 
+  function Ownable() {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:53:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferOwnership(address newOwner) onlyOwner {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:1131:31: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        if (uint256(keccak256(block.blockhash(block.number - 2), now)) % 100 < probability) {
+                              ^-------------^
+contracts/PandaBase.sol:1442:3: Warning: No visibility specified. Defaulting to "public". 
+  function pause() onlyOwner whenNotPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:1451:3: Warning: No visibility specified. Defaulting to "public". 
+  function unpause() onlyOwner whenPaused returns (bool) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:1496:9: Warning: Unused local variable.
+        bool res = nftAddress.send(this.balance);
+        ^------^
+contracts/PandaBase.sol:1808:35: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                  ^-------------^
+contracts/PandaBase.sol:1808:65: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        bytes32 bHash = keccak256(block.blockhash(block.number),block.blockhash(block.number-1));
+                                                                ^-------------^
+contracts/PandaBase.sol:1927:18: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function bid(uint256 _tokenId)
+                 ^--------------^
+contracts/PandaBase.sol:1939:9: Warning: Unused local variable.
+        address seller = tokenIdToAuction[_tokenId].seller;
+        ^------------^
+contracts/PandaBase.sol:1942:9: Warning: Unused local variable.
+        uint256 price = _bidERC20(_erc20address,msg.sender,_tokenId, _amount);
+        ^-----------^
+contracts/PandaBase.sol:1958:88: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function withdrawERC20Balance(address _erc20Address, address _to) external returns(bool res)  {
+                                                                                       ^------^
+contracts/PandaBase.sol:516:5: Warning: Function state mutability can be restricted to pure
+    function getMetadata(uint256 _tokenId, string) public view returns (bytes32[4] buffer, uint256 count) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:747:5: Warning: Function state mutability can be restricted to pure
+    function _memcpy(uint _dest, uint _src, uint _len) private view {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/PandaBase.sol:990:5: Warning: Function state mutability can be restricted to view
+    function _exchangeMatronSireId(uint256 _matronId, uint256 _sireId) internal returns(uint256, uint256) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz Pausable
+** Write stats: 0.00291
+** Write stats: 5.00006
+** Write stats: 10
+** Write stats: 15.0001
+** Write stats: 20.0001
+** Write stats: 25.0002
+** Write stats: 30.0004
+** Write stats: 35.0002
+** Write stats: 38.0033
+>> Fuzz PandaCore
+** Write stats: 0.090683
+** Write stats: 5.01357
+** Write stats: 10.0141
+** Write stats: 15.0025
+** Write stats: 20.0057
+** Write stats: 25.0065
+** Write stats: 30.0292
+** Write stats: 35.0014
+** Write stats: 38.4556
+>> Fuzz SaleClockAuctionERC20
+** Write stats: 0.01652
+** Write stats: 5.00045
+** Write stats: 10.0004
+** Write stats: 15.0005
+** Write stats: 20.0002
+** Write stats: 25.0002
+** Write stats: 30.0003
+** Write stats: 35.0002
+** Write stats: 38.0127
+>> Fuzz SiringClockAuction
+** Write stats: 0.010798
+** Write stats: 5.00007
+** Write stats: 10.0001
+** Write stats: 15.0003
+** Write stats: 20.0003
+** Write stats: 25.0001
+** Write stats: 30.0002
+** Write stats: 35.0001
+** Write stats: 38.003
+>> Fuzz PandaBreeding
+** Write stats: 0.024432
+** Write stats: 5.00564
+** Write stats: 10.0016
+** Write stats: 15.0017
+** Write stats: 20.0133
+** Write stats: 25.0155
+** Write stats: 30.0039
+** Write stats: 35.0202
+** Write stats: 38.3177
+>> Fuzz ERC721Metadata
+** Write stats: 0.0018
+** Write stats: 5.00009
+** Write stats: 10.0001
+** Write stats: 15.1645
+** Write stats: 20.0001
+** Write stats: 25.0001
+** Write stats: 30.0906
+** Write stats: 35.0001
+** Write stats: 38.0005
+>> Fuzz PandaAuction
+** Write stats: 0.045526
+** Write stats: 5.21249
+** Write stats: 10.0129
+** Write stats: 15.0056
+** Write stats: 20.3325
+** Write stats: 25.0048
+** Write stats: 30.0056
+** Write stats: 35.014
+** Write stats: 38.4584
+>> Fuzz SaleClockAuction
+** Write stats: 0.013645
+** Write stats: 5.0004
+** Write stats: 10.0002
+** Write stats: 15.0003
+** Write stats: 20.0002
+** Write stats: 25.0004
+** Write stats: 30.0093
+** Write stats: 35.0001
+** Write stats: 38.006
+>> Fuzz Ownable
+** Write stats: 0.002009
+** Write stats: 5.00005
+** Write stats: 10.0001
+** Write stats: 15.0001
+** Write stats: 20.0058
+** Write stats: 25.0001
+** Write stats: 30.0001
+** Write stats: 35.0002
+** Write stats: 38.006
+>> Fuzz ClockAuctionBase
+** Write stats: 0.001687
+** Write stats: 5.00009
+** Write stats: 10.0001
+** Write stats: 15.0003
+** Write stats: 20.0001
+** Write stats: 25
+** Write stats: 30.0001
+** Write stats: 35.0001
+** Write stats: 38.0001
+>> Fuzz PandaOwnership
+** Write stats: 0.01549
+** Write stats: 5.0007
+** Write stats: 10.0003
+** Write stats: 15.0019
+** Write stats: 20.0019
+** Write stats: 25.0017
+** Write stats: 30.0707
+** Write stats: 35.042
+** Write stats: 38.0618
+>> Fuzz PandaAccessControl
+** Write stats: 0.004312
+** Write stats: 5.00021
+** Write stats: 10.0002
+** Write stats: 15.0001
+** Write stats: 20.0001
+** Write stats: 25.0002
+** Write stats: 30.0078
+** Write stats: 35.0005
+** Write stats: 38.0146
+>> Fuzz PandaMinting
+** Write stats: 0.052368
+** Write stats: 5.01029
+** Write stats: 10.0055
+** Write stats: 15.0187
+** Write stats: 20.0182
+** Write stats: 25.0083
+** Write stats: 30.0304
+** Write stats: 35.3897
+** Write stats: 38.1407
+>> Fuzz ClockAuction
+** Write stats: 0.008904
+** Write stats: 5.00033
+** Write stats: 10.0001
+** Write stats: 15.0003
+** Write stats: 20.0003
+** Write stats: 25.0171
+** Write stats: 30.0002
+** Write stats: 35.0001
+** Write stats: 38.0008
+>> Fuzz PandaBase
+** Write stats: 0.007956
+** Write stats: 5.0003
+** Write stats: 10.0005
+** Write stats: 15.0008
+** Write stats: 20.001
+** Write stats: 25.0007
+** Write stats: 30.0001
+** Write stats: 35.0006
+** Write stats: 38.0845

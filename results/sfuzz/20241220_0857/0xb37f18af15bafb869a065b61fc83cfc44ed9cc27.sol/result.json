@@ -1,0 +1,66 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "SimpleWallet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SimpleWallet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+            "function": "withdrawAll",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SimpleWallet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+            "function": "sendMoney",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SimpleWallet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "SimpleWallet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+            "function": "withdrawAll",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "SimpleWallet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+            "function": "sendMoney",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "SimpleWallet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "SimpleWallet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+            "function": "withdrawAll",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "SimpleWallet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb37f18af15bafb869a065b61fc83cfc44ed9cc27.sol",
+            "function": "sendMoney",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

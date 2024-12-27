@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/denial_of_service/auction.sol",
+            "name": "TODAmount"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/denial_of_service/auction.sol",
+            "name": "TODReceiver"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/denial_of_service/auction.sol",
+            "name": "TODTransfer"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

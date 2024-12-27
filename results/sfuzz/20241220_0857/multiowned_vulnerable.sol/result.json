@@ -1,0 +1,30 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "TestContract.sol",
+            "filename": "smartbugs-curated/dataset/access_control/multiowned_vulnerable.sol",
+            "function": "withdrawAll",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "TestContract.sol",
+            "filename": "smartbugs-curated/dataset/access_control/multiowned_vulnerable.sol",
+            "function": "newOwner",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "TestContract.sol",
+            "filename": "smartbugs-curated/dataset/access_control/multiowned_vulnerable.sol",
+            "function": "deleteOwner",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

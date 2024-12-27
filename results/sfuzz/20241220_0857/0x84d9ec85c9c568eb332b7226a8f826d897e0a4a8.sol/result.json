@@ -1,0 +1,84 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "acceptOwnership",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "changeOwner",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "execute",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "acceptOwnership",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "changeOwner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "execute",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "WedIndex.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "writeIndex",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WedIndex.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "acceptOwnership",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WedIndex.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "changeOwner",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WedIndex.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+            "function": "execute",
+            "name": "Timestamp Dependency"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

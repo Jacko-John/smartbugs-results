@@ -1,0 +1,32 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/lotto.sol",
+            "name": "TODAmount"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/lotto.sol",
+            "name": "TODTransfer"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/lotto.sol",
+            "name": "TODReceiver"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/lotto.sol",
+            "name": "DAOConstantGas"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/lotto.sol",
+            "name": "UnhandledException"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

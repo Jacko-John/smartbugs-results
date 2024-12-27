@@ -1,0 +1,48 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+            "function": "changeOwner",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+            "function": "confirmOwner",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+            "function": "WithdrawToken",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+            "function": "changeOwner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+            "function": "confirmOwner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3a0e9acd953ffc0dd18d63603488846a6b8b2b01.sol",
+            "function": "WithdrawToken",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

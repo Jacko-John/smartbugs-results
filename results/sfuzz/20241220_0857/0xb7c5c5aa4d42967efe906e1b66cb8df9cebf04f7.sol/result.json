@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "keepMyEther.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "keepMyEther.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb7c5c5aa4d42967efe906e1b66cb8df9cebf04f7.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

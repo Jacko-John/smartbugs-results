@@ -1,0 +1,36 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "ReturnValue.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+            "function": "callchecked",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ReturnValue.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+            "function": "callnotchecked",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ReturnValue.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+            "function": "callchecked",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "ReturnValue.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/unchecked_return_value.sol",
+            "function": "callnotchecked",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

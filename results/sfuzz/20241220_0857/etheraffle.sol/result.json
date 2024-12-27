@@ -1,0 +1,84 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "kill",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "getRefund",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "togglePause",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "buyTickets",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "endRaffle",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "kill",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "getRefund",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "togglePause",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "buyTickets",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "endRaffle",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Ethraffle_v4b.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/etheraffle.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

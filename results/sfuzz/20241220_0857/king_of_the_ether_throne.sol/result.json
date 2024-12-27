@@ -1,0 +1,86 @@
+{
+    "errors": [],
+    "fails": [
+        "DOCKER_TIMEOUT"
+    ],
+    "findings": [
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "sweepCommission",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "claimThrone",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "transferOwnership",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "sweepCommission",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "claimThrone",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "transferOwnership",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "sweepCommission",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "claimThrone",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "transferOwnership",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "KingOfTheEtherThrone.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/king_of_the_ether_throne.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

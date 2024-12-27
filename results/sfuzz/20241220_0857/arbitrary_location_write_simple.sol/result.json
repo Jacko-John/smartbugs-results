@@ -1,0 +1,72 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "UpdateBonusCodeAt",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "PopBonusCode",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "Destroy",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "PushBonusCode",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "UpdateBonusCodeAt",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "PopBonusCode",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "Destroy",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "PushBonusCode",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+            "function": "",
+            "name": "Integer Overflow"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

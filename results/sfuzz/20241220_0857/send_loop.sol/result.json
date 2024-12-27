@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Refunder.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/send_loop.sol",
+            "function": "refundAll",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Refunder.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/send_loop.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

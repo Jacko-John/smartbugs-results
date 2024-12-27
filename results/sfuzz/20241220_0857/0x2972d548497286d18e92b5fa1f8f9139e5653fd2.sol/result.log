@@ -1,0 +1,25 @@
+Extract contract demo from /sb/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol
+Extracted 1 contract(s) from /sb/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/demo.sol:14:13: Warning: Return value of low-level calls not used.
+            caddress.call(id,from,_tos[i],v[i]);
+            ^---------------------------------^
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz demo
+** Write stats: 0.009115
+** Write stats: 5.03246
+** Write stats: 10.0487
+** Write stats: 15.008
+** Write stats: 20.0048
+** Write stats: 58.5138

@@ -1,0 +1,84 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "overflowlocalonly",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "underflowtostate",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "overflowmultostate",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "underflowlocalonly",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "overflowaddtostate",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "overflowmulocalonly",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "overflowlocalonly",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "underflowtostate",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "overflowmultostate",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "underflowlocalonly",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "overflowaddtostate",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "IntegerOverflowSingleTransaction.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/overflow_single_tx.sol",
+            "function": "overflowmulocalonly",
+            "name": "Integer Overflow"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

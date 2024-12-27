@@ -1,0 +1,18 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Attacker.sol",
+            "filename": "smartbugs-curated/dataset/time_manipulation/governmental_survey.sol",
+            "function": "attack",
+            "name": "Integer Underflow"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "EtherLotto.sol",
+            "filename": "smartbugs-curated/dataset/time_manipulation/ether_lotto.sol",
+            "function": "play",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "EtherLotto.sol",
+            "filename": "smartbugs-curated/dataset/time_manipulation/ether_lotto.sol",
+            "function": "",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "EtherLotto.sol",
+            "filename": "smartbugs-curated/dataset/time_manipulation/ether_lotto.sol",
+            "function": "play",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "EtherLotto.sol",
+            "filename": "smartbugs-curated/dataset/time_manipulation/ether_lotto.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

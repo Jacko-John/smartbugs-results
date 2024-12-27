@@ -1,0 +1,588 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "approve",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "preICOregulations",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "transferFrom",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setotherchainstotalsupply",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setSupply",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setBonusCreationRate",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "burn",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "PartialFundsTransfer",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "FundsTransfer",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "migrate",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "finalize",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setTokenInformation",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "DAOPolskaTokenICOregulations",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "sendTokenAw",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "refundTRA",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "burnFrom",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "turnmigrate",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "transfer",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "fundingState",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "createDaoPOLSKAtokens",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "approveAndCall",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "turnrefund",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setChainsAddresses",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "approve",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "preICOregulations",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "transferFrom",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setotherchainstotalsupply",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setSupply",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setBonusCreationRate",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "burn",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "PartialFundsTransfer",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "FundsTransfer",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "migrate",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "finalize",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setTokenInformation",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "DAOPolskaTokenICOregulations",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "sendTokenAw",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "refundTRA",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "burnFrom",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "turnmigrate",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "transfer",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "fundingState",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "createDaoPOLSKAtokens",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "approveAndCall",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "turnrefund",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setChainsAddresses",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "approve",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "preICOregulations",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "transferFrom",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setotherchainstotalsupply",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setSupply",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setBonusCreationRate",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "burn",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "PartialFundsTransfer",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "FundsTransfer",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "migrate",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "finalize",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setTokenInformation",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "DAOPolskaTokenICOregulations",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "sendTokenAw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "refundTRA",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "burnFrom",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "turnmigrate",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "transfer",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "fundingState",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "createDaoPOLSKAtokens",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "approveAndCall",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "turnrefund",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setChainsAddresses",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "approve",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "preICOregulations",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "transferFrom",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setotherchainstotalsupply",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setSupply",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setBonusCreationRate",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "burn",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "PartialFundsTransfer",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "FundsTransfer",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "migrate",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "finalize",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setTokenInformation",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "DAOPolskaTokenICOregulations",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "sendTokenAw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "refundTRA",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "burnFrom",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "turnmigrate",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "transfer",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "fundingState",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "createDaoPOLSKAtokens",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "approveAndCall",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "turnrefund",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "setChainsAddresses",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "daoPOLSKAtokens.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x19cf8481ea15427a98ba3cdd6d9e14690011ab10.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

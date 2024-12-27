@@ -1,0 +1,36 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/token.sol",
+            "function": "transfer",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/token.sol",
+            "function": "",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/token.sol",
+            "function": "transfer",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "Token.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/token.sol",
+            "function": "",
+            "name": "Integer Overflow"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

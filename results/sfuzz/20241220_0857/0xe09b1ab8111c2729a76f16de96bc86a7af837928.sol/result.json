@@ -1,0 +1,246 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "wager",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "refund",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "setBotAddress",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "kill",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "play",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "donateForContractHealth",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "withdrawDevFee",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "withdrawDonation",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "withdrawBotFee",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "transferAnyERC20Token",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "setSecretSigner",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "clearStorage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "wager",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "refund",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "setBotAddress",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "kill",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "play",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "donateForContractHealth",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "withdrawDevFee",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "withdrawDonation",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "withdrawBotFee",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "transferAnyERC20Token",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "setSecretSigner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "clearStorage",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "wager",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "refund",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "setBotAddress",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "kill",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "play",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "donateForContractHealth",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "withdrawDevFee",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "withdrawDonation",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "withdrawBotFee",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "transferAnyERC20Token",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "setSecretSigner",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "clearStorage",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "FiftyFlip.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

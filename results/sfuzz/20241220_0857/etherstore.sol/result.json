@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "EtherStore.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/etherstore.sol",
+            "function": "withdrawFunds",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "EtherStore.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/etherstore.sol",
+            "function": "depositFunds",
+            "name": "Timestamp Dependency"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

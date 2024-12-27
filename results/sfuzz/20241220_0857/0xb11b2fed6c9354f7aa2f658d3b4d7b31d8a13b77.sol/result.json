@@ -1,0 +1,192 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "Vault",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "transferOwner",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "proxy",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "deposit",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "Vault",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "transferOwner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "proxy",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "deposit",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "Vault",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "transferOwner",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "proxy",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "DepositProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "deposit",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "Vault",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "transferOwner",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "proxy",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "deposit",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "Vault",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "transferOwner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "proxy",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "deposit",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "Vault",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "transferOwner",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "proxy",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb11b2fed6c9354f7aa2f658d3b4d7b31d8a13b77.sol",
+            "function": "deposit",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Reentrancy_cross_function.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/reentrancy_cross_function.sol",
+            "function": "withdrawBalance",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Reentrancy_cross_function.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/reentrancy_cross_function.sol",
+            "function": "transfer",
+            "name": "Reentrancy"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

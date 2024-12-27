@@ -1,0 +1,28 @@
+Extract contract FiftyFlip from /sb/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol
+Extracted 1 contract(s) from /sb/0xe09b1ab8111c2729a76f16de96bc86a7af837928.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/FiftyFlip.sol:150:9: Warning: Return value of low-level calls not used.
+        whale.call.value(donate_amount)(bytes4(keccak256("donate()")));
+        ^------------------------------------------------------------^
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz FiftyFlip
+** Write stats: 0.019267
+** Write stats: 5.03653
+** Write stats: 10.0563
+** Write stats: 15.0405
+** Write stats: 20.1294
+** Write stats: 25.0512
+** Write stats: 30.0995
+** Write stats: 35.0154
+** Write stats: 130.201

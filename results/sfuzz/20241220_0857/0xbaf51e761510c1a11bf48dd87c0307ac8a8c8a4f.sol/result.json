@@ -1,0 +1,60 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "ETH_VAULT.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+            "function": "CashOut",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ETH_VAULT.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+            "function": "Deposit",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ETH_VAULT.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+            "function": "",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ETH_VAULT.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+            "function": "CashOut",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "ETH_VAULT.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+            "function": "Deposit",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "ETH_VAULT.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+            "function": "AddMessage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+            "function": "AddMessage",
+            "name": "Timestamp Dependency"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

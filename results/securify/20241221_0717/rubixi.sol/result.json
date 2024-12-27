@@ -1,0 +1,36 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/access_control/rubixi.sol",
+            "name": "TODAmount"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/rubixi.sol",
+            "name": "MissingInputValidation"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/rubixi.sol",
+            "name": "TODTransfer"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/rubixi.sol",
+            "name": "TODReceiver"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/rubixi.sol",
+            "name": "DAOConstantGas"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/rubixi.sol",
+            "name": "UnhandledException"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

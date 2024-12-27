@@ -1,0 +1,183 @@
+Extract contract Owned from /sb/0xec329ffc97d75fe03428ae155fc7793431487f63.sol
+Extract contract TokenSender from /sb/0xec329ffc97d75fe03428ae155fc7793431487f63.sol
+Extracted 2 contract(s) from /sb/0xec329ffc97d75fe03428ae155fc7793431487f63.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/TokenSender.sol:10:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:53:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function TokenSender(address _token) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:69:21: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if (next>0) throw;
+                    ^---^
+contracts/TokenSender.sol:96:77: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if ((mNext == 0 ) && ( token.balanceOf(this) != totalToDistribute)) throw;
+                                                                            ^---^
+contracts/TokenSender.sol:102:69: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                if (!token.transfer(addr, transfers[mNext].amount)) throw;
+                                                                    ^---^
+contracts/TokenSender.sol:126:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function gas() internal constant returns (uint _gas) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:30:9: Warning: Return value of low-level calls not used.
+        _dst.call.value(_value)(_data);
+        ^----------------------------^
+contracts/TokenSender.sol:10:5: Warning: No visibility specified. Defaulting to "public". 
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:21:5: Warning: No visibility specified. Defaulting to "public". 
+    function changeOwner(address _newOwner) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:28:5: Warning: No visibility specified. Defaulting to "public". 
+    function execute(address _dst, uint _value, bytes _data) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:35:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer(address, uint) returns(bool);
+    ^---------------------------------------------^
+contracts/TokenSender.sol:36:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf(address) constant returns (uint);
+    ^--------------------------------------------------^
+contracts/TokenSender.sol:53:5: Warning: No visibility specified. Defaulting to "public". 
+    function TokenSender(address _token) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:66:5: Warning: No visibility specified. Defaulting to "public". 
+    function fill(uint[] data) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:87:5: Warning: No visibility specified. Defaulting to "public". 
+    function run() onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:116:5: Warning: No visibility specified. Defaulting to "public". 
+    function hasTerminated() constant returns (bool) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/TokenSender.sol:122:5: Warning: No visibility specified. Defaulting to "public". 
+    function nTransfers() constant returns (uint) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:10:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:53:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function TokenSender(address _token) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:69:21: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if (next>0) throw;
+                    ^---^
+contracts/Owned.sol:96:77: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if ((mNext == 0 ) && ( token.balanceOf(this) != totalToDistribute)) throw;
+                                                                            ^---^
+contracts/Owned.sol:102:69: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                if (!token.transfer(addr, transfers[mNext].amount)) throw;
+                                                                    ^---^
+contracts/Owned.sol:126:5: Warning: Variable is shadowed in inline assembly by an instruction of the same name
+    function gas() internal constant returns (uint _gas) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:30:9: Warning: Return value of low-level calls not used.
+        _dst.call.value(_value)(_data);
+        ^----------------------------^
+contracts/Owned.sol:10:5: Warning: No visibility specified. Defaulting to "public". 
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:21:5: Warning: No visibility specified. Defaulting to "public". 
+    function changeOwner(address _newOwner) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:28:5: Warning: No visibility specified. Defaulting to "public". 
+    function execute(address _dst, uint _value, bytes _data) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:35:5: Warning: No visibility specified. Defaulting to "public". 
+    function transfer(address, uint) returns(bool);
+    ^---------------------------------------------^
+contracts/Owned.sol:36:5: Warning: No visibility specified. Defaulting to "public". 
+    function balanceOf(address) constant returns (uint);
+    ^--------------------------------------------------^
+contracts/Owned.sol:53:5: Warning: No visibility specified. Defaulting to "public". 
+    function TokenSender(address _token) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:66:5: Warning: No visibility specified. Defaulting to "public". 
+    function fill(uint[] data) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:87:5: Warning: No visibility specified. Defaulting to "public". 
+    function run() onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:116:5: Warning: No visibility specified. Defaulting to "public". 
+    function hasTerminated() constant returns (bool) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:122:5: Warning: No visibility specified. Defaulting to "public". 
+    function nTransfers() constant returns (uint) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz TokenSender
+** Write stats: 0.012787
+** Write stats: 1.94133
+>> Fuzz Owned
+** Write stats: 0.005692
+** Write stats: 5.01376
+** Write stats: 10.0003
+** Write stats: 15.0002
+** Write stats: 20.0001
+** Write stats: 25.0583
+** Write stats: 30.0005
+** Write stats: 35.0002
+** Write stats: 40.0001
+** Write stats: 45.0001
+** Write stats: 50.009
+** Write stats: 55.0001
+** Write stats: 60.0002
+** Write stats: 65.0346
+** Write stats: 70.0002
+** Write stats: 75.0003
+** Write stats: 80.0002
+** Write stats: 85.0009
+** Write stats: 90.0002
+** Write stats: 95.0001
+** Write stats: 100
+** Write stats: 105
+** Write stats: 110.02
+** Write stats: 115.026
+** Write stats: 120.043
+** Write stats: 125.008
+** Write stats: 130
+** Write stats: 135
+** Write stats: 140
+** Write stats: 145
+** Write stats: 150
+** Write stats: 155.009
+** Write stats: 160
+** Write stats: 165
+** Write stats: 170
+** Write stats: 175.021
+** Write stats: 180.023
+** Write stats: 185
+** Write stats: 190.003
+** Write stats: 195.034
+** Write stats: 200
+** Write stats: 205
+** Write stats: 210.02
+** Write stats: 215.032
+** Write stats: 220
+** Write stats: 225
+** Write stats: 230
+** Write stats: 235.043
+** Write stats: 240
+** Write stats: 245.014
+** Write stats: 250
+** Write stats: 255
+** Write stats: 260
+** Write stats: 265
+** Write stats: 270.019
+** Write stats: 275
+** Write stats: 280.016
+** Write stats: 285
+** Write stats: 290
+** Write stats: 295
+** Write stats: 298.074

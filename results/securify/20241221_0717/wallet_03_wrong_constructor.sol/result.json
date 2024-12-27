@@ -1,0 +1,28 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/access_control/wallet_03_wrong_constructor.sol",
+            "name": "TODAmount"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/wallet_03_wrong_constructor.sol",
+            "name": "MissingInputValidation"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/wallet_03_wrong_constructor.sol",
+            "name": "TODTransfer"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/wallet_03_wrong_constructor.sol",
+            "name": "DAOConstantGas"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

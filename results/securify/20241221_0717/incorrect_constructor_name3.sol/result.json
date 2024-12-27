@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/access_control/incorrect_constructor_name3.sol",
+            "name": "TODAmount"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/incorrect_constructor_name3.sol",
+            "name": "TODReceiver"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/access_control/incorrect_constructor_name3.sol",
+            "name": "TODTransfer"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

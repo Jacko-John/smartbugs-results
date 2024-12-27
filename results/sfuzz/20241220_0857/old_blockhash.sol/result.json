@@ -1,0 +1,48 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "PredictTheBlockHashChallenge.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/old_blockhash.sol",
+            "function": "settle",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "PredictTheBlockHashChallenge.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/old_blockhash.sol",
+            "function": "lockInGuess",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "PredictTheBlockHashChallenge.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/old_blockhash.sol",
+            "function": "",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "PredictTheBlockHashChallenge.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/old_blockhash.sol",
+            "function": "settle",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "PredictTheBlockHashChallenge.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/old_blockhash.sol",
+            "function": "lockInGuess",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "PredictTheBlockHashChallenge.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/old_blockhash.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

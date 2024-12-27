@@ -1,0 +1,84 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "AddMessage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "AddMessage",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "SetLogFile",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "Collect",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "Initialized",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "SetMinSum",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "Put",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "SetLogFile",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "Collect",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "Initialized",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "SetMinSum",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "MONEY_BOX.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol",
+            "function": "Put",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

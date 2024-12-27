@@ -1,0 +1,84 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "LogFile.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "AddMessage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "LogFile.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "AddMessage",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "SetLogFile",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "Collect",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "Initialized",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "SetMinSum",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "Put",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "SetLogFile",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "Collect",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "Initialized",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "SetMinSum",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PENNY_BY_PENNY.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol",
+            "function": "Put",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

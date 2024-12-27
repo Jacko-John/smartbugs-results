@@ -1,0 +1,20 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/reentrancy/0x8c7777c45481dba411450c228cb692ac3d550344.sol",
+            "name": "DAO"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/reentrancy/0x8c7777c45481dba411450c228cb692ac3d550344.sol",
+            "name": "MissingInputValidation"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

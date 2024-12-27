@@ -1,0 +1,28 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "filename": "smartbugs-curated/dataset/bad_randomness/lucky_doubler.sol",
+            "name": "TODAmount"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/bad_randomness/lucky_doubler.sol",
+            "name": "TODReceiver"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/bad_randomness/lucky_doubler.sol",
+            "name": "DAOConstantGas"
+        },
+        {
+            "filename": "smartbugs-curated/dataset/bad_randomness/lucky_doubler.sol",
+            "name": "UnhandledException"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "securify",
+        "mode": "solidity",
+        "version": "2022/11/17"
+    }
+}

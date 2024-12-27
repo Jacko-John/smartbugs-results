@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Reentrancy_bonus.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/reentrancy_bonus.sol",
+            "function": "getFirstWithdrawalBonus",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Reentrancy_bonus.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/reentrancy_bonus.sol",
+            "function": "withdrawReward",
+            "name": "Reentrancy"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

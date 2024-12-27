@@ -1,0 +1,66 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "CryptoRoulette.sol",
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "function": "kill",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "CryptoRoulette.sol",
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "function": "play",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "CryptoRoulette.sol",
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "function": "",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "CryptoRoulette.sol",
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "function": "kill",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "CryptoRoulette.sol",
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "function": "play",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "CryptoRoulette.sol",
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "function": "",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "CryptoRoulette.sol",
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "function": "kill",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "CryptoRoulette.sol",
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "function": "play",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "CryptoRoulette.sol",
+            "filename": "smartbugs-curated/dataset/other/crypto_roulette.sol",
+            "function": "",
+            "name": "Timestamp Dependency"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "HomeyJar.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "HomeyJar.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+            "function": "Command",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "HomeyJar.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+            "function": "GetHoneyFromJar",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "HomeyJar.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "HomeyJar.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+            "function": "Command",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "HomeyJar.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+            "function": "GetHoneyFromJar",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "HomeyJar.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "HomeyJar.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+            "function": "Command",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "HomeyJar.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x70f9eddb3931491aab1aeafbc1e7f1ca2a012db4.sol",
+            "function": "GetHoneyFromJar",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

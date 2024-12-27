@@ -1,0 +1,38 @@
+{
+    "errors": [],
+    "fails": [
+        "DOCKER_TIMEOUT"
+    ],
+    "findings": [
+        {
+            "contract": "Lotto.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/lotto.sol",
+            "function": "withdrawLeftOver",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Lotto.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/lotto.sol",
+            "function": "sendToWinner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Lotto.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/lotto.sol",
+            "function": "withdrawLeftOver",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Lotto.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/lotto.sol",
+            "function": "sendToWinner",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

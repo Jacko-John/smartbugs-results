@@ -1,0 +1,48 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+            "function": "changeOwner",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+            "function": "execute",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+            "function": "",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+            "function": "changeOwner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+            "function": "execute",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

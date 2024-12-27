@@ -1,0 +1,300 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "callFirstTarget",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "callSecondTarget",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "setSeed",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "DranMe",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "checkSecret",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "setSecret",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "becomePlayer",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "manipulateSecret",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "claimPrize",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "winPrize",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "guessSeed",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "addSeed",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "callFirstTarget",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "callSecondTarget",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "setSeed",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "DranMe",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "checkSecret",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "setSecret",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "becomePlayer",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "manipulateSecret",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "claimPrize",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "winPrize",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "guessSeed",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "addSeed",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "callFirstTarget",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "callSecondTarget",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "setSeed",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "DranMe",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "checkSecret",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "setSecret",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "becomePlayer",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "manipulateSecret",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "claimPrize",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "winPrize",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "guessSeed",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "addSeed",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "callFirstTarget",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "callSecondTarget",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "setSeed",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "DranMe",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "checkSecret",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "setSecret",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "becomePlayer",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "manipulateSecret",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "claimPrize",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "winPrize",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "guessSeed",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DrainMe.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb620cee6b52f96f3c6b253e6eea556aa2d214a99.sol",
+            "function": "addSeed",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

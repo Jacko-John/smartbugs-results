@@ -1,0 +1,312 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "ClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "createAuction",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "unpause",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "bid",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "withdrawBalance",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "pause",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "cancelAuctionWhenPaused",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "cancelAuction",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "transferOwnership",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "ClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "approve",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setSiringAuctionAddress",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "withdrawERC20Balance",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "transferFrom",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setGeneScienceAddress",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setCEO",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setCOO",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "createSaleAuction",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "unpause",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "createSiringAuction",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setAutoBirthFee",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "approveSiring",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setCFO",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "createWizzPanda",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setSecondsPerBlock",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "withdrawBalance",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setSaleAuctionAddress",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setNewAddress",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "createSaleAuctionERC20",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "pause",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "withdrawAuctionBalances",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "createPanda",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setSaleAuctionERC20Address",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "switchSaleAuctionERC20For",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "transfer",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "setTotalWizzPandaOf",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "createGen0Auction",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "init",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "bidOnSiringAuction",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "giveBirth",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "breedWithAuto",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "PandaCore.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "SiringClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "createAuction",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SiringClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "unpause",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SiringClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "bid",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SiringClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "withdrawBalance",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SiringClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "pause",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SiringClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "cancelAuctionWhenPaused",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SiringClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "cancelAuction",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SiringClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "transferOwnership",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SiringClockAuction.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+            "function": "",
+            "name": "Reentrancy"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

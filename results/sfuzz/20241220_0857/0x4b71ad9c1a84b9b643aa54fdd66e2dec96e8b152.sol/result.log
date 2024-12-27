@@ -1,0 +1,34 @@
+Extract contract airPort from /sb/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol
+Extracted 1 contract(s) from /sb/0x4b71ad9c1a84b9b643aa54fdd66e2dec96e8b152.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/airPort.sol:17:13: Warning: Return value of low-level calls not used.
+            caddress.call(id,from,_tos[i],v);
+            ^------------------------------^
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz airPort
+** Write stats: 0.01388
+** Write stats: 5.02262
+** Write stats: 10.0138
+** Write stats: 15.0146
+** Write stats: 40.2433
+** Write stats: 45.017
+** Write stats: 50.0644
+** Write stats: 55.0753
+** Write stats: 60.0115
+** Write stats: 65.0399
+** Write stats: 70.002
+** Write stats: 75.1143
+** Write stats: 80.0304
+** Write stats: 85.0838
+** Write stats: 158.827

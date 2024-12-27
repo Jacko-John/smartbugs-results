@@ -1,0 +1,36 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/wallet_04_confused_sign.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/wallet_04_confused_sign.sol",
+            "function": "migrateTo",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/wallet_04_confused_sign.sol",
+            "function": "deposit",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Wallet.sol",
+            "filename": "smartbugs-curated/dataset/access_control/wallet_04_confused_sign.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

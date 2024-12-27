@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "IntegerOverflowMultiTxMultiFuncFeasible.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/integer_overflow_multitx_multifunc_feasible.sol",
+            "function": "run",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "IntegerOverflowMultiTxMultiFuncFeasible.sol",
+            "filename": "smartbugs-curated/dataset/arithmetic/integer_overflow_multitx_multifunc_feasible.sol",
+            "function": "init",
+            "name": "Integer Underflow"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

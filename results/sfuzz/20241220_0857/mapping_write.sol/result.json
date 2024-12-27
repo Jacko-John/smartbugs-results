@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Map.sol",
+            "filename": "smartbugs-curated/dataset/access_control/mapping_write.sol",
+            "function": "set",
+            "name": "Integer Overflow"
+        },
+        {
+            "contract": "Map.sol",
+            "filename": "smartbugs-curated/dataset/access_control/mapping_write.sol",
+            "function": "withdraw",
+            "name": "Integer Overflow"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Puppet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Puppet.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+            "function": "",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Splitter.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+            "function": "fundPuppets",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Splitter.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Splitter.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+            "function": "setExtra",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Splitter.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+            "function": "newPuppet",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Splitter.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

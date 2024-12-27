@@ -1,0 +1,66 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "WhaleGiveaway2.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "WhaleGiveaway2.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "function": "GetFreebie",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "WhaleGiveaway2.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "function": "Command",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "WhaleGiveaway2.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "WhaleGiveaway2.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "function": "GetFreebie",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "WhaleGiveaway2.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "function": "Command",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "WhaleGiveaway2.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "WhaleGiveaway2.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "function": "GetFreebie",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "WhaleGiveaway2.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+            "function": "Command",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

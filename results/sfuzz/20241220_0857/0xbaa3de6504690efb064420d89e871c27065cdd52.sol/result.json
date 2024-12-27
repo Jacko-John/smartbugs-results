@@ -1,0 +1,126 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "transferOwner",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "proxy",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "transferOwner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "proxy",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "Vault",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "transferOwner",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "proxy",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "deposit",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "Vault",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "transferOwner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "proxy",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "deposit",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "Vault",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "transferOwner",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "proxy",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "VaultProxy.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xbaa3de6504690efb064420d89e871c27065cdd52.sol",
+            "function": "deposit",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

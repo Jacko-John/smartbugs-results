@@ -1,0 +1,84 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "SetLogFile",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "Collect",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "Initialized",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "SetMinSum",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "Deposit",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "SetLogFile",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "Collect",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "Initialized",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "SetMinSum",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "BANK_SAFE.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "Deposit",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "LogFile.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "AddMessage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "LogFile.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+            "function": "AddMessage",
+            "name": "Timestamp Dependency"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

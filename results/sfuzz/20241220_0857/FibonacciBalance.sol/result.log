@@ -1,0 +1,30 @@
+Extract contract FibonacciBalance from /sb/FibonacciBalance.sol
+Extract contract FibonacciLib from /sb/FibonacciBalance.sol
+Extracted 2 contract(s) from /sb/FibonacciBalance.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/FibonacciLib.sol:19:37: Warning: "sha3" has been deprecated in favour of "keccak256"
+    bytes4 constant fibSig = bytes4(sha3("setFibonacci(uint256)"));
+                                    ^---------------------------^
+contracts/FibonacciLib.sol:26:5: Warning: No visibility specified. Defaulting to "public". 
+    function withdraw() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/FibonacciBalance.sol:19:37: Warning: "sha3" has been deprecated in favour of "keccak256"
+    bytes4 constant fibSig = bytes4(sha3("setFibonacci(uint256)"));
+                                    ^---------------------------^
+contracts/FibonacciBalance.sol:26:5: Warning: No visibility specified. Defaulting to "public". 
+    function withdraw() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz FibonacciLib
+** Write stats: 0.004083

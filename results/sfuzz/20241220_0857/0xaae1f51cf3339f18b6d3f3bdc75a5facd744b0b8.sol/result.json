@@ -1,0 +1,84 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "SetLogFile",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "Collect",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "Initialized",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "SetMinSum",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "Deposit",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "SetLogFile",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "Collect",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "Initialized",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "SetMinSum",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "DEP_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "Deposit",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "LogFile.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "AddMessage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "LogFile.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol",
+            "function": "AddMessage",
+            "name": "Timestamp Dependency"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

@@ -1,0 +1,146 @@
+Extract contract ETH_FUND from /sb/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol
+Extract contract Log from /sb/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol
+Extracted 2 contract(s) from /sb/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/Log.sol:19:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ETH_FUND(address _log)
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/ETH_FUND.sol:19:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function ETH_FUND(address _log)
+    ^ (Relevant source part starts here and spans across multiple lines).
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz Log
+** Write stats: 0.005462
+** Write stats: 5.0134
+** Write stats: 10.011
+** Write stats: 15.0035
+** Write stats: 20.0302
+** Write stats: 25.0284
+** Write stats: 30.0349
+** Write stats: 35.0124
+** Write stats: 40.0429
+** Write stats: 45.0059
+** Write stats: 50.0158
+** Write stats: 55.0171
+** Write stats: 60.0604
+** Write stats: 65.0234
+** Write stats: 70.0299
+** Write stats: 75.023
+** Write stats: 80.0598
+** Write stats: 85.0579
+** Write stats: 90.0278
+** Write stats: 95.0368
+** Write stats: 100.029
+** Write stats: 105.055
+** Write stats: 110.03
+** Write stats: 115.063
+** Write stats: 120.068
+** Write stats: 125.075
+** Write stats: 130.097
+** Write stats: 135.092
+** Write stats: 140.031
+** Write stats: 145.005
+** Write stats: 150.069
+** Write stats: 155.088
+** Write stats: 160.094
+** Write stats: 165.071
+** Write stats: 170.069
+** Write stats: 175.081
+** Write stats: 180.099
+** Write stats: 185.035
+** Write stats: 190.015
+** Write stats: 195.056
+** Write stats: 200.028
+** Write stats: 205.099
+** Write stats: 210.085
+** Write stats: 215.051
+** Write stats: 220.074
+** Write stats: 225.097
+** Write stats: 230.015
+** Write stats: 235.011
+** Write stats: 240.079
+** Write stats: 245.092
+** Write stats: 250.071
+** Write stats: 255.118
+** Write stats: 260.076
+** Write stats: 265.104
+** Write stats: 270.044
+** Write stats: 275.001
+** Write stats: 280.002
+** Write stats: 285.045
+** Write stats: 290.002
+** Write stats: 295.025
+** Write stats: 298.051
+>> Fuzz ETH_FUND
+** Write stats: 0.007814
+** Write stats: 5.00125
+** Write stats: 10.0013
+** Write stats: 15.0026
+** Write stats: 20.0008
+** Write stats: 25.0004
+** Write stats: 30.0013
+** Write stats: 35.0023
+** Write stats: 40.0009
+** Write stats: 45.0036
+** Write stats: 50.0009
+** Write stats: 55.0023
+** Write stats: 60.0024
+** Write stats: 65.0023
+** Write stats: 70.0019
+** Write stats: 75.0024
+** Write stats: 80.0006
+** Write stats: 85.0004
+** Write stats: 90.0027
+** Write stats: 95.0016
+** Write stats: 100.003
+** Write stats: 105.002
+** Write stats: 110.003
+** Write stats: 115.003
+** Write stats: 120.003
+** Write stats: 125.003
+** Write stats: 130.001
+** Write stats: 135.001
+** Write stats: 140.001
+** Write stats: 145.003
+** Write stats: 150
+** Write stats: 155.003
+** Write stats: 160.002
+** Write stats: 165.002
+** Write stats: 170.001
+** Write stats: 175.004
+** Write stats: 180.005
+** Write stats: 185.003
+** Write stats: 190.003
+** Write stats: 195.001
+** Write stats: 200.002
+** Write stats: 205.003
+** Write stats: 210.003
+** Write stats: 215.002
+** Write stats: 220.004
+** Write stats: 225.001
+** Write stats: 230.003
+** Write stats: 235.005
+** Write stats: 240.001
+** Write stats: 245.001
+** Write stats: 250.001
+** Write stats: 255.002
+** Write stats: 260.011
+** Write stats: 265.004
+** Write stats: 270.007
+** Write stats: 275.003
+** Write stats: 280.003
+** Write stats: 285.011
+** Write stats: 290.009
+** Write stats: 295.007
+** Write stats: 298.015

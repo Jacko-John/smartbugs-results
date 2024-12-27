@@ -1,0 +1,177 @@
+Extract contract Delta from /sb/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol
+Extracted 1 contract(s) from /sb/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/Delta.sol:84:13: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+            throw;
+            ^---^
+contracts/Delta.sol:44:9: Warning: This declaration shadows an existing declaration.
+        uint tokens_buy = msg.value*10**18/token_price;
+        ^-------------^
+contracts/Delta.sol:39:5: The shadowed declaration is here:
+    function tokens_buy() payable returns (bool) {         
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+contracts/Delta.sol:25:25: Warning: This looks like an address but has an invalid checksum. If this is not used as an address, please prepend '00'. Correct checksummed address: '0x788C45Dd60aE4dBE5055b5Ac02384D5dc84677b0'. For more information please see https://solidity.readthedocs.io/en/develop/types.html#address-literals
+	address public owner = 0x788c45dd60ae4dbe5055b5ac02384d5dc84677b0;	
+	                       ^----------------------------------------^
+contracts/Delta.sol:48:27: Warning: "sha3" has been deprecated in favour of "keccak256"
+        if(!c.call(bytes4(sha3("transferFrom(address,address,uint256)")),owner, msg.sender,tokens_buy)){
+                          ^-------------------------------------------^
+contracts/Delta.sol:54:9: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+        owner2.send(sum2);
+        ^---------------^
+contracts/Delta.sol:62:21: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+          balance = this.balance;
+                    ^----------^
+contracts/Delta.sol:65:11: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+          owner.send(balance);
+          ^-----------------^
+contracts/Delta.sol:32:2: Warning: No visibility specified. Defaulting to "public". 
+	function() payable {        
+ ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Delta.sol:39:5: Warning: No visibility specified. Defaulting to "public". 
+    function tokens_buy() payable returns (bool) {         
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Delta.sol:60:7: Warning: No visibility specified. Defaulting to "public". 
+      function withdraw(uint256 _amount) onlyOwner returns (bool result) {
+      ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Delta.sol:70:7: Warning: No visibility specified. Defaulting to "public". 
+      function change_token_price(uint256 _token_price) onlyOwner returns (bool result) {
+      ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Delta.sol:76:7: Warning: No visibility specified. Defaulting to "public". 
+      function change_active(uint256 _active) onlyOwner returns (bool result) {
+      ^ (Relevant source part starts here and spans across multiple lines).
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz Delta
+** Write stats: 0.007588
+** Write stats: 5.00014
+** Write stats: 10.0002
+** Write stats: 15.0002
+** Write stats: 20.0003
+** Write stats: 25.0002
+** Write stats: 30.0072
+** Write stats: 35.0002
+** Write stats: 40.0003
+** Write stats: 45.0004
+** Write stats: 50.0001
+** Write stats: 55.0003
+** Write stats: 60.0003
+** Write stats: 65.0002
+** Write stats: 70.0001
+** Write stats: 75.0001
+** Write stats: 80.0002
+** Write stats: 85.0001
+** Write stats: 90.0001
+** Write stats: 95.0001
+** Write stats: 100
+** Write stats: 105
+** Write stats: 110
+** Write stats: 115
+** Write stats: 120.006
+** Write stats: 125
+** Write stats: 130
+** Write stats: 135
+** Write stats: 140
+** Write stats: 145
+** Write stats: 150
+** Write stats: 155
+** Write stats: 160
+** Write stats: 165.021
+** Write stats: 170
+** Write stats: 175.004
+** Write stats: 180
+** Write stats: 185
+** Write stats: 190
+** Write stats: 195
+** Write stats: 200
+** Write stats: 205
+** Write stats: 210
+** Write stats: 215
+** Write stats: 220
+** Write stats: 225
+** Write stats: 230
+** Write stats: 235
+** Write stats: 240
+** Write stats: 245
+** Write stats: 250
+** Write stats: 255
+** Write stats: 260
+** Write stats: 265
+** Write stats: 270
+** Write stats: 275
+** Write stats: 280
+** Write stats: 285
+** Write stats: 290
+** Write stats: 295
+** Write stats: 300
+** Write stats: 305
+** Write stats: 310
+** Write stats: 315
+** Write stats: 320
+** Write stats: 325
+** Write stats: 330
+** Write stats: 335
+** Write stats: 340
+** Write stats: 345
+** Write stats: 350
+** Write stats: 355.001
+** Write stats: 360.001
+** Write stats: 365
+** Write stats: 370.001
+** Write stats: 375.001
+** Write stats: 380.001
+** Write stats: 385
+** Write stats: 390.055
+** Write stats: 395
+** Write stats: 400.001
+** Write stats: 405.001
+** Write stats: 410
+** Write stats: 415.046
+** Write stats: 420
+** Write stats: 425.025
+** Write stats: 430
+** Write stats: 435.001
+** Write stats: 440.041
+** Write stats: 445.001
+** Write stats: 450
+** Write stats: 455
+** Write stats: 460.036
+** Write stats: 465.001
+** Write stats: 470.001
+** Write stats: 475
+** Write stats: 480.001
+** Write stats: 485.059
+** Write stats: 490
+** Write stats: 495
+** Write stats: 500.001
+** Write stats: 505
+** Write stats: 510
+** Write stats: 515
+** Write stats: 520.001
+** Write stats: 525
+** Write stats: 530
+** Write stats: 535.024
+** Write stats: 540.001
+** Write stats: 545
+** Write stats: 550.057
+** Write stats: 555.001
+** Write stats: 560.001
+** Write stats: 565
+** Write stats: 570.001
+** Write stats: 575
+** Write stats: 580
+** Write stats: 585.001
+** Write stats: 590.045
+** Write stats: 595.06
+** Write stats: 598.023

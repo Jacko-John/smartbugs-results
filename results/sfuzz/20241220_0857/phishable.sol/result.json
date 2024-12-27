@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Phishable.sol",
+            "filename": "smartbugs-curated/dataset/access_control/phishable.sol",
+            "function": "withdrawAll",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Phishable.sol",
+            "filename": "smartbugs-curated/dataset/access_control/phishable.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

@@ -1,0 +1,164 @@
+Extract contract LogFile from /sb/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol
+Extract contract PENNY_BY_PENNY from /sb/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol
+Extracted 2 contract(s) from /sb/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/PENNY_BY_PENNY.sol:28:24: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if(intitalized)throw;
+                       ^---^
+contracts/PENNY_BY_PENNY.sol:35:24: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if(intitalized)throw;
+                       ^---^
+contracts/PENNY_BY_PENNY.sol:49:9: Warning: Use of the "var" keyword is deprecated.
+        var acc = Acc[msg.sender];
+        ^-----^
+contracts/PENNY_BY_PENNY.sol:59:9: Warning: Use of the "var" keyword is deprecated.
+        var acc = Acc[msg.sender];
+        ^-----^
+contracts/LogFile.sol:28:24: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if(intitalized)throw;
+                       ^---^
+contracts/LogFile.sol:35:24: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+        if(intitalized)throw;
+                       ^---^
+contracts/LogFile.sol:49:9: Warning: Use of the "var" keyword is deprecated.
+        var acc = Acc[msg.sender];
+        ^-----^
+contracts/LogFile.sol:59:9: Warning: Use of the "var" keyword is deprecated.
+        var acc = Acc[msg.sender];
+        ^-----^
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz PENNY_BY_PENNY
+** Write stats: 0.006487
+** Write stats: 5.00148
+** Write stats: 10.0009
+** Write stats: 15.0018
+** Write stats: 20.0009
+** Write stats: 25.0016
+** Write stats: 30.0036
+** Write stats: 35.0044
+** Write stats: 40.0019
+** Write stats: 45.0013
+** Write stats: 50.0042
+** Write stats: 55.0015
+** Write stats: 60.0006
+** Write stats: 65.0035
+** Write stats: 70.0005
+** Write stats: 75.0006
+** Write stats: 80.0027
+** Write stats: 85.0022
+** Write stats: 90.0052
+** Write stats: 95.0051
+** Write stats: 100.002
+** Write stats: 105.005
+** Write stats: 110.006
+** Write stats: 115.005
+** Write stats: 120.001
+** Write stats: 125.003
+** Write stats: 130.004
+** Write stats: 135.003
+** Write stats: 140.006
+** Write stats: 145.004
+** Write stats: 150.007
+** Write stats: 155.004
+** Write stats: 160
+** Write stats: 165.003
+** Write stats: 170.007
+** Write stats: 175.004
+** Write stats: 180.006
+** Write stats: 185.002
+** Write stats: 190.001
+** Write stats: 195.003
+** Write stats: 200.003
+** Write stats: 205.005
+** Write stats: 210.005
+** Write stats: 215.002
+** Write stats: 220.004
+** Write stats: 225.008
+** Write stats: 230.007
+** Write stats: 235.002
+** Write stats: 240.002
+** Write stats: 245.001
+** Write stats: 250.012
+** Write stats: 255
+** Write stats: 260.009
+** Write stats: 265.013
+** Write stats: 270.005
+** Write stats: 275.001
+** Write stats: 280.018
+** Write stats: 285.01
+** Write stats: 290.014
+** Write stats: 295.001
+** Write stats: 298.02
+>> Fuzz LogFile
+** Write stats: 0.003731
+** Write stats: 5.01351
+** Write stats: 10.0217
+** Write stats: 15.0291
+** Write stats: 20.0134
+** Write stats: 25.0051
+** Write stats: 30.0218
+** Write stats: 35.0385
+** Write stats: 40.0152
+** Write stats: 45.0196
+** Write stats: 50.0213
+** Write stats: 55.0353
+** Write stats: 60.0311
+** Write stats: 65.0318
+** Write stats: 70.0066
+** Write stats: 75.0043
+** Write stats: 80.0458
+** Write stats: 85.0641
+** Write stats: 90.0714
+** Write stats: 95.0428
+** Write stats: 100.044
+** Write stats: 105.027
+** Write stats: 110.051
+** Write stats: 115.074
+** Write stats: 120.065
+** Write stats: 125.017
+** Write stats: 130.022
+** Write stats: 135.082
+** Write stats: 140.014
+** Write stats: 145.069
+** Write stats: 150.056
+** Write stats: 155.081
+** Write stats: 160.059
+** Write stats: 165
+** Write stats: 170.03
+** Write stats: 175.012
+** Write stats: 180.109
+** Write stats: 185.027
+** Write stats: 190.011
+** Write stats: 195.028
+** Write stats: 200.077
+** Write stats: 205.034
+** Write stats: 210.078
+** Write stats: 215.079
+** Write stats: 220.076
+** Write stats: 225.003
+** Write stats: 230.067
+** Write stats: 235.105
+** Write stats: 240.072
+** Write stats: 245.028
+** Write stats: 250.016
+** Write stats: 255.07
+** Write stats: 260.01
+** Write stats: 265.106
+** Write stats: 270.101
+** Write stats: 275.046
+** Write stats: 280.06
+** Write stats: 285.078
+** Write stats: 290.106
+** Write stats: 295.144
+** Write stats: 298.123

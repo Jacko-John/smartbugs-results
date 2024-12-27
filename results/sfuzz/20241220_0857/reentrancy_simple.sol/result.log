@@ -1,0 +1,149 @@
+Extract contract Reentrance from /sb/reentrancy_simple.sol
+Extracted 1 contract(s) from /sb/reentrancy_simple.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/Reentrance.sol:25:14: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+             throw;
+             ^---^
+contracts/Reentrance.sol:12:6: Warning: No visibility specified. Defaulting to "public". 
+     function getBalance(address u) constant returns(uint){
+     ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Reentrance.sol:16:6: Warning: No visibility specified. Defaulting to "public". 
+     function addToBalance() payable{
+     ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Reentrance.sol:20:6: Warning: No visibility specified. Defaulting to "public". 
+     function withdrawBalance(){
+     ^ (Relevant source part starts here and spans across multiple lines).
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz Reentrance
+** Write stats: 0.004696
+** Write stats: 5.0042
+** Write stats: 10.0034
+** Write stats: 15.0055
+** Write stats: 20.0044
+** Write stats: 25.0037
+** Write stats: 30.005
+** Write stats: 35.0068
+** Write stats: 40.0033
+** Write stats: 45.0031
+** Write stats: 50.0028
+** Write stats: 55.0023
+** Write stats: 60.0054
+** Write stats: 65.0081
+** Write stats: 70.0101
+** Write stats: 75.0079
+** Write stats: 80.0194
+** Write stats: 85.0085
+** Write stats: 90.0228
+** Write stats: 95.0109
+** Write stats: 100.023
+** Write stats: 105.012
+** Write stats: 110.008
+** Write stats: 115.001
+** Write stats: 120.015
+** Write stats: 125.011
+** Write stats: 130.009
+** Write stats: 135.002
+** Write stats: 140.016
+** Write stats: 145.014
+** Write stats: 150.009
+** Write stats: 155.009
+** Write stats: 160.01
+** Write stats: 165.018
+** Write stats: 170.004
+** Write stats: 175.02
+** Write stats: 180.008
+** Write stats: 185.018
+** Write stats: 190.018
+** Write stats: 195.023
+** Write stats: 200
+** Write stats: 205.023
+** Write stats: 210.013
+** Write stats: 215.016
+** Write stats: 220.007
+** Write stats: 225.016
+** Write stats: 230.013
+** Write stats: 235.021
+** Write stats: 240.01
+** Write stats: 245.012
+** Write stats: 250
+** Write stats: 255.021
+** Write stats: 260.012
+** Write stats: 265.011
+** Write stats: 270.013
+** Write stats: 275.011
+** Write stats: 280.004
+** Write stats: 285.024
+** Write stats: 290.019
+** Write stats: 295.001
+** Write stats: 300.013
+** Write stats: 305.004
+** Write stats: 310.002
+** Write stats: 315.022
+** Write stats: 320.017
+** Write stats: 325.023
+** Write stats: 330.012
+** Write stats: 335.027
+** Write stats: 340.018
+** Write stats: 345.024
+** Write stats: 350.006
+** Write stats: 355.019
+** Write stats: 360.004
+** Write stats: 365.009
+** Write stats: 370.023
+** Write stats: 375.037
+** Write stats: 380.027
+** Write stats: 385.01
+** Write stats: 390.003
+** Write stats: 395.004
+** Write stats: 400.038
+** Write stats: 405.045
+** Write stats: 410.049
+** Write stats: 415.018
+** Write stats: 420.024
+** Write stats: 425.007
+** Write stats: 430.001
+** Write stats: 435.004
+** Write stats: 440.035
+** Write stats: 445.01
+** Write stats: 450.024
+** Write stats: 455.004
+** Write stats: 460.027
+** Write stats: 465.047
+** Write stats: 470.02
+** Write stats: 475.037
+** Write stats: 480.055
+** Write stats: 485.022
+** Write stats: 490.008
+** Write stats: 495.037
+** Write stats: 500.002
+** Write stats: 505.003
+** Write stats: 510.027
+** Write stats: 515.02
+** Write stats: 520.02
+** Write stats: 525.043
+** Write stats: 530.025
+** Write stats: 535.055
+** Write stats: 540.009
+** Write stats: 545.011
+** Write stats: 550.032
+** Write stats: 555.035
+** Write stats: 560.038
+** Write stats: 565.01
+** Write stats: 570.048
+** Write stats: 575.004
+** Write stats: 580.032
+** Write stats: 585.001
+** Write stats: 590.016
+** Write stats: 595.021
+** Write stats: 598.03

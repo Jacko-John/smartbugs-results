@@ -1,0 +1,108 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "AdjustDifficulty",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "OpenToThePublic",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "wager",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "play",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "AdjustBetAmounts",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "transferAnyERC20Token",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "donate",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "AdjustDifficulty",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "OpenToThePublic",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "wager",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "play",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "AdjustBetAmounts",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "transferAnyERC20Token",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "donate",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "PoCGame.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

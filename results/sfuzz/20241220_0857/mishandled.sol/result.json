@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "SendBack.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/mishandled.sol",
+            "function": "withdrawBalance",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "SendBack.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/mishandled.sol",
+            "function": "withdrawBalance",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

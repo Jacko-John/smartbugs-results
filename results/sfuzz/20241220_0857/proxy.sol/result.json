@@ -1,0 +1,36 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/access_control/proxy.sol",
+            "function": "forward",
+            "name": "Freezing Ether"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/access_control/proxy.sol",
+            "function": "",
+            "name": "Freezing Ether"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/access_control/proxy.sol",
+            "function": "forward",
+            "name": "Dangerous Delegate Call"
+        },
+        {
+            "contract": "Proxy.sol",
+            "filename": "smartbugs-curated/dataset/access_control/proxy.sol",
+            "function": "",
+            "name": "Dangerous Delegate Call"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

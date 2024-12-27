@@ -1,0 +1,84 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "hit",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "deal",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "stand",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "hit",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "deal",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "stand",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "hit",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "deal",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "stand",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "BlackJack.sol",
+            "filename": "smartbugs-curated/dataset/bad_randomness/blackjack.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

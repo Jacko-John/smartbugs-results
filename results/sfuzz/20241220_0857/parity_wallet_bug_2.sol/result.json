@@ -1,0 +1,246 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "removeOwner",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "resetSpentToday",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "addOwner",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "confirm",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "initDaylimit",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "setDailyLimit",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "execute",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "revoke",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "changeRequirement",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "initMultiowned",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "kill",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "initWallet",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "changeOwner",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "removeOwner",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "resetSpentToday",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "addOwner",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "confirm",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "initDaylimit",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "setDailyLimit",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "execute",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "revoke",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "changeRequirement",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "initMultiowned",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "kill",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "initWallet",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "changeOwner",
+            "name": "Block Number Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "removeOwner",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "resetSpentToday",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "addOwner",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "confirm",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "initDaylimit",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "setDailyLimit",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "execute",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "revoke",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "changeRequirement",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "initMultiowned",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "kill",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "initWallet",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "WalletLibrary.sol",
+            "filename": "smartbugs-curated/dataset/access_control/parity_wallet_bug_2.sol",
+            "function": "changeOwner",
+            "name": "Timestamp Dependency"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

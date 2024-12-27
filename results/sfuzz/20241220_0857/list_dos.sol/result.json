@@ -1,0 +1,156 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "inheritToNextGeneration",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "investInTheSystem",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "totalPayedOut",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "getCreditorAmounts",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "getCreditorAddresses",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "lendGovernmentMoney",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "totalDebt",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "inheritToNextGeneration",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "investInTheSystem",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "totalPayedOut",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "getCreditorAmounts",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "getCreditorAddresses",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "lendGovernmentMoney",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "totalDebt",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "inheritToNextGeneration",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "investInTheSystem",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "totalPayedOut",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "getCreditorAmounts",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "getCreditorAddresses",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "lendGovernmentMoney",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "totalDebt",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Government.sol",
+            "filename": "smartbugs-curated/dataset/denial_of_service/list_dos.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

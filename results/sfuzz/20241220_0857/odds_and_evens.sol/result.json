@@ -1,0 +1,48 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "OddsAndEvens.sol",
+            "filename": "smartbugs-curated/dataset/front_running/odds_and_evens.sol",
+            "function": "getProfit",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "OddsAndEvens.sol",
+            "filename": "smartbugs-curated/dataset/front_running/odds_and_evens.sol",
+            "function": "play",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "OddsAndEvens.sol",
+            "filename": "smartbugs-curated/dataset/front_running/odds_and_evens.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "OddsAndEvens.sol",
+            "filename": "smartbugs-curated/dataset/front_running/odds_and_evens.sol",
+            "function": "getProfit",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "OddsAndEvens.sol",
+            "filename": "smartbugs-curated/dataset/front_running/odds_and_evens.sol",
+            "function": "play",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "OddsAndEvens.sol",
+            "filename": "smartbugs-curated/dataset/front_running/odds_and_evens.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

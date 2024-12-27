@@ -1,0 +1,243 @@
+Extract contract Owned from /sb/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol
+Extract contract WedIndex from /sb/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol
+Extracted 2 contract(s) from /sb/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/WedIndex.sol:29:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/WedIndex.sol:87:25: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                        ^------------^
+contracts/WedIndex.sol:67:5: The shadowed declaration is here:
+    uint public indexdate;
+    ^-------------------^
+
+contracts/WedIndex.sol:87:41: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                        ^---------------^
+contracts/WedIndex.sol:65:5: The shadowed declaration is here:
+    string public wedaddress;
+    ^----------------------^
+
+contracts/WedIndex.sol:87:60: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                                           ^-----------------^
+contracts/WedIndex.sol:66:5: The shadowed declaration is here:
+    string public partnernames;
+    ^------------------------^
+
+contracts/WedIndex.sol:87:81: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                                                                ^--------------^
+contracts/WedIndex.sol:68:5: The shadowed declaration is here:
+    uint public weddingdate;
+    ^---------------------^
+
+contracts/WedIndex.sol:87:99: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                                                                                  ^------------------^
+contracts/WedIndex.sol:69:5: The shadowed declaration is here:
+    uint public displaymultisig;
+    ^-------------------------^
+
+contracts/WedIndex.sol:56:9: Warning: Return value of low-level calls not used.
+        _dst.call.value(_value)(_data);
+        ^----------------------------^
+contracts/WedIndex.sol:89:9: Warning: Invoking events without "emit" prefix is deprecated.
+        IndexWritten(now, wedaddress, partnernames, weddingdate, displaymultisig);
+        ^-----------------------------------------------------------------------^
+contracts/WedIndex.sol:29:5: Warning: No visibility specified. Defaulting to "public". 
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/WedIndex.sol:38:5: Warning: No visibility specified. Defaulting to "public". 
+    function changeOwner(address _newOwner) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/WedIndex.sol:45:5: Warning: No visibility specified. Defaulting to "public". 
+    function acceptOwnership() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/WedIndex.sol:54:5: Warning: No visibility specified. Defaulting to "public". 
+    function execute(address _dst, uint _value, bytes _data) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/WedIndex.sol:87:5: Warning: No visibility specified. Defaulting to "public". 
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/WedIndex.sol:87:25: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                        ^------------^
+contracts/Owned.sol:29:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:87:25: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                        ^------------^
+contracts/Owned.sol:67:5: The shadowed declaration is here:
+    uint public indexdate;
+    ^-------------------^
+
+contracts/Owned.sol:87:41: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                        ^---------------^
+contracts/Owned.sol:65:5: The shadowed declaration is here:
+    string public wedaddress;
+    ^----------------------^
+
+contracts/Owned.sol:87:60: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                                           ^-----------------^
+contracts/Owned.sol:66:5: The shadowed declaration is here:
+    string public partnernames;
+    ^------------------------^
+
+contracts/Owned.sol:87:81: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                                                                ^--------------^
+contracts/Owned.sol:68:5: The shadowed declaration is here:
+    uint public weddingdate;
+    ^---------------------^
+
+contracts/Owned.sol:87:99: Warning: This declaration shadows an existing declaration.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                                                                                                  ^------------------^
+contracts/Owned.sol:69:5: The shadowed declaration is here:
+    uint public displaymultisig;
+    ^-------------------------^
+
+contracts/Owned.sol:56:9: Warning: Return value of low-level calls not used.
+        _dst.call.value(_value)(_data);
+        ^----------------------------^
+contracts/Owned.sol:89:9: Warning: Invoking events without "emit" prefix is deprecated.
+        IndexWritten(now, wedaddress, partnernames, weddingdate, displaymultisig);
+        ^-----------------------------------------------------------------------^
+contracts/Owned.sol:29:5: Warning: No visibility specified. Defaulting to "public". 
+    function Owned() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:38:5: Warning: No visibility specified. Defaulting to "public". 
+    function changeOwner(address _newOwner) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:45:5: Warning: No visibility specified. Defaulting to "public". 
+    function acceptOwnership() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:54:5: Warning: No visibility specified. Defaulting to "public". 
+    function execute(address _dst, uint _value, bytes _data) onlyOwner {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:87:5: Warning: No visibility specified. Defaulting to "public". 
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Owned.sol:87:25: Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    function writeIndex(uint indexdate, string wedaddress, string partnernames, uint weddingdate, uint displaymultisig) {
+                        ^------------^
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz WedIndex
+** Write stats: 0.012397
+** Write stats: 5.01802
+** Write stats: 10.023
+** Write stats: 15.0365
+** Write stats: 20.0053
+** Write stats: 25.0079
+** Write stats: 30.0616
+** Write stats: 35.0014
+** Write stats: 40.0272
+** Write stats: 45.0266
+** Write stats: 50.0268
+** Write stats: 55.085
+** Write stats: 60.0209
+** Write stats: 65.0724
+** Write stats: 70.0618
+** Write stats: 75.0474
+** Write stats: 80.0306
+** Write stats: 85.097
+** Write stats: 90.1149
+** Write stats: 95.0388
+** Write stats: 100.049
+** Write stats: 105.052
+** Write stats: 110.024
+** Write stats: 115.125
+** Write stats: 120.05
+** Write stats: 125.083
+** Write stats: 130.027
+** Write stats: 135.126
+** Write stats: 140.111
+** Write stats: 145.025
+** Write stats: 150.018
+** Write stats: 155.116
+** Write stats: 160.082
+** Write stats: 165.159
+** Write stats: 170.045
+** Write stats: 175.017
+** Write stats: 180.033
+** Write stats: 185.067
+** Write stats: 190.167
+** Write stats: 194.83
+>> Fuzz Owned
+** Write stats: 0.005828
+** Write stats: 5.00008
+** Write stats: 10.0002
+** Write stats: 15.0001
+** Write stats: 20.0276
+** Write stats: 25.0002
+** Write stats: 30.0001
+** Write stats: 35.0315
+** Write stats: 40.0001
+** Write stats: 45.0001
+** Write stats: 50.0001
+** Write stats: 55.0002
+** Write stats: 60.0002
+** Write stats: 65.0312
+** Write stats: 70.0002
+** Write stats: 75.0001
+** Write stats: 80.0003
+** Write stats: 85.0001
+** Write stats: 90.0001
+** Write stats: 95.0002
+** Write stats: 100
+** Write stats: 105.06
+** Write stats: 110
+** Write stats: 115.12
+** Write stats: 120
+** Write stats: 125
+** Write stats: 130.024
+** Write stats: 135
+** Write stats: 140
+** Write stats: 145
+** Write stats: 150
+** Write stats: 155
+** Write stats: 160
+** Write stats: 165
+** Write stats: 170
+** Write stats: 175.014
+** Write stats: 180
+** Write stats: 185.036
+** Write stats: 190
+** Write stats: 195
+** Write stats: 200
+** Write stats: 205
+** Write stats: 210
+** Write stats: 215.089
+** Write stats: 220
+** Write stats: 225
+** Write stats: 230
+** Write stats: 235.06
+** Write stats: 240.104
+** Write stats: 245
+** Write stats: 250
+** Write stats: 255
+** Write stats: 260
+** Write stats: 265.008
+** Write stats: 270
+** Write stats: 275
+** Write stats: 280
+** Write stats: 285.034
+** Write stats: 290
+** Write stats: 295.002
+** Write stats: 298.026

@@ -1,0 +1,18 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "B.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+            "function": "go",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "sendMessage",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "setMajorEvent",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "acceptOwnership",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "changeOwner",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "execute",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "setStatus",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "createMarriage",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "sendMessage",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "setMajorEvent",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "acceptOwnership",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "changeOwner",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "execute",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "setStatus",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "createMarriage",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Marriage.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "acceptOwnership",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "changeOwner",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "execute",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "acceptOwnership",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "changeOwner",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "execute",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Owned.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x958a8f594101d2c0485a52319f29b2647f2ebc06.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

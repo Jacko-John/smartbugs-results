@@ -1,0 +1,158 @@
+Extract contract Log from /sb/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol
+Extract contract X_WALLET from /sb/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol
+Extracted 2 contract(s) from /sb/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+contracts/X_WALLET.sol:15:9: Warning: Use of the "var" keyword is deprecated.
+        var acc = Acc[msg.sender];
+        ^-----^
+contracts/X_WALLET.sol:25:9: Warning: Use of the "var" keyword is deprecated.
+        var acc = Acc[msg.sender];
+        ^-----^
+contracts/X_WALLET.sol:56:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function X_WALLET(address log) public{
+    ^ (Relevant source part starts here and spans across multiple lines).
+contracts/Log.sol:15:9: Warning: Use of the "var" keyword is deprecated.
+        var acc = Acc[msg.sender];
+        ^-----^
+contracts/Log.sol:25:9: Warning: Use of the "var" keyword is deprecated.
+        var acc = Acc[msg.sender];
+        ^-----^
+contracts/Log.sol:56:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function X_WALLET(address log) public{
+    ^ (Relevant source part starts here and spans across multiple lines).
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz X_WALLET
+** Write stats: 0.010885
+** Write stats: 5.00216
+** Write stats: 10.0012
+** Write stats: 15.0034
+** Write stats: 20.0006
+** Write stats: 25.0045
+** Write stats: 30.0043
+** Write stats: 35.001
+** Write stats: 40.0065
+** Write stats: 45.0055
+** Write stats: 50.0032
+** Write stats: 55.0024
+** Write stats: 60.0037
+** Write stats: 65.0045
+** Write stats: 70.0059
+** Write stats: 75.0056
+** Write stats: 80.0063
+** Write stats: 85.0017
+** Write stats: 90.0067
+** Write stats: 95.0046
+** Write stats: 100
+** Write stats: 105.004
+** Write stats: 110.002
+** Write stats: 115.006
+** Write stats: 120.006
+** Write stats: 125.001
+** Write stats: 130.006
+** Write stats: 135.006
+** Write stats: 140.005
+** Write stats: 145.002
+** Write stats: 150.002
+** Write stats: 155.003
+** Write stats: 160.003
+** Write stats: 165.002
+** Write stats: 170.002
+** Write stats: 175.006
+** Write stats: 180
+** Write stats: 185.005
+** Write stats: 190.003
+** Write stats: 195.001
+** Write stats: 200.003
+** Write stats: 205.003
+** Write stats: 210.001
+** Write stats: 215.001
+** Write stats: 220
+** Write stats: 225.006
+** Write stats: 230.005
+** Write stats: 235.004
+** Write stats: 240.006
+** Write stats: 245.001
+** Write stats: 250.005
+** Write stats: 255.004
+** Write stats: 260.001
+** Write stats: 265.006
+** Write stats: 270.001
+** Write stats: 275.003
+** Write stats: 280.004
+** Write stats: 285.002
+** Write stats: 290.004
+** Write stats: 295.001
+** Write stats: 298.016
+>> Fuzz Log
+** Write stats: 0.007577
+** Write stats: 5.00129
+** Write stats: 10.0217
+** Write stats: 15.006
+** Write stats: 20.0252
+** Write stats: 25.0162
+** Write stats: 30.0089
+** Write stats: 35.0013
+** Write stats: 40.036
+** Write stats: 45.0458
+** Write stats: 50.0366
+** Write stats: 55.042
+** Write stats: 60.0121
+** Write stats: 65.0283
+** Write stats: 70.0519
+** Write stats: 75.0168
+** Write stats: 80.0572
+** Write stats: 85.0774
+** Write stats: 90.0222
+** Write stats: 95.0468
+** Write stats: 100.062
+** Write stats: 105.019
+** Write stats: 110.067
+** Write stats: 115.071
+** Write stats: 120.087
+** Write stats: 125.019
+** Write stats: 130.039
+** Write stats: 135.025
+** Write stats: 140.021
+** Write stats: 145.029
+** Write stats: 150.028
+** Write stats: 155.014
+** Write stats: 160.064
+** Write stats: 165.08
+** Write stats: 170.095
+** Write stats: 175.074
+** Write stats: 180.008
+** Write stats: 185.045
+** Write stats: 190.072
+** Write stats: 195.09
+** Write stats: 200.1
+** Write stats: 205.101
+** Write stats: 210.107
+** Write stats: 215.051
+** Write stats: 220.072
+** Write stats: 225.086
+** Write stats: 230.012
+** Write stats: 235.017
+** Write stats: 240.074
+** Write stats: 245.049
+** Write stats: 250.021
+** Write stats: 255.069
+** Write stats: 260.05
+** Write stats: 265.093
+** Write stats: 270.132
+** Write stats: 275.093
+** Write stats: 280.039
+** Write stats: 285.101
+** Write stats: 290.05
+** Write stats: 295.029
+** Write stats: 298.088

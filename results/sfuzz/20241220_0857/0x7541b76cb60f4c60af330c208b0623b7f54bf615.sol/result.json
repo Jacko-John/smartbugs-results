@@ -1,0 +1,60 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+            "function": "AddMessage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+            "function": "AddMessage",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "U_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+            "function": "Collect",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "U_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+            "function": "Put",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "U_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+            "function": "",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "U_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+            "function": "Collect",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "U_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+            "function": "Put",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "U_BANK.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+            "function": "",
+            "name": "Reentrancy"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

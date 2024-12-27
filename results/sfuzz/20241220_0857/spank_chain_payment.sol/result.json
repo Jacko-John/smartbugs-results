@@ -1,0 +1,74 @@
+{
+    "errors": [],
+    "fails": [
+        "exception (Segmentation fault)"
+    ],
+    "findings": [
+        {
+            "contract": "HumanStandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "approve",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "HumanStandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "transferFrom",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "HumanStandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "transfer",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "HumanStandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "approveAndCall",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "HumanStandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "StandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "approve",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "StandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "transferFrom",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "StandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "transfer",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "StandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "approveAndCall",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "StandardToken.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/spank_chain_payment.sol",
+            "function": "",
+            "name": "Integer Underflow"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

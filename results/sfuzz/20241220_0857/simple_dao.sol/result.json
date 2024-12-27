@@ -1,0 +1,48 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "SimpleDAO.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/simple_dao.sol",
+            "function": "donate",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SimpleDAO.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/simple_dao.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SimpleDAO.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/simple_dao.sol",
+            "function": "queryCredit",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "SimpleDAO.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/simple_dao.sol",
+            "function": "donate",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "SimpleDAO.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/simple_dao.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "SimpleDAO.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/simple_dao.sol",
+            "function": "queryCredit",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

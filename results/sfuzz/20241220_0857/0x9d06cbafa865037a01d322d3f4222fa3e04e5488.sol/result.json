@@ -1,0 +1,36 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Delta.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "function": "change_active",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Delta.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Delta.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "function": "tokens_buy",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Delta.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x9d06cbafa865037a01d322d3f4222fa3e04e5488.sol",
+            "function": "change_token_price",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

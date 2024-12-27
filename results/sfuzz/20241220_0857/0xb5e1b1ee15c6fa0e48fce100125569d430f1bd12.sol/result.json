@@ -1,0 +1,60 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "function": "AddMessage",
+            "name": "Integer Underflow"
+        },
+        {
+            "contract": "Log.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "function": "AddMessage",
+            "name": "Timestamp Dependency"
+        },
+        {
+            "contract": "Private_Bank.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "function": "CashOut",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Private_Bank.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "function": "Deposit",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Private_Bank.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "function": "",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Private_Bank.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "function": "CashOut",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Private_Bank.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "function": "Deposit",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Private_Bank.sol",
+            "filename": "smartbugs-curated/dataset/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+            "function": "",
+            "name": "Exception Disorder"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

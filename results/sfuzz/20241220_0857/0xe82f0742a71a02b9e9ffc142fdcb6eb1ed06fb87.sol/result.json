@@ -1,0 +1,66 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Freebie.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Freebie.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+            "function": "GetFreebie",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Freebie.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+            "function": "Command",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "Freebie.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Freebie.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+            "function": "GetFreebie",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Freebie.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+            "function": "Command",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "Freebie.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Freebie.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+            "function": "GetFreebie",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Freebie.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0xe82f0742a71a02b9e9ffc142fdcb6eb1ed06fb87.sol",
+            "function": "Command",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

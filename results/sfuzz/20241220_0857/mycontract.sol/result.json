@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "MyContract.sol",
+            "filename": "smartbugs-curated/dataset/access_control/mycontract.sol",
+            "function": "sendTo",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "MyContract.sol",
+            "filename": "smartbugs-curated/dataset/access_control/mycontract.sol",
+            "function": "",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

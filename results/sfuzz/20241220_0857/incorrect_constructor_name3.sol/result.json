@@ -1,0 +1,24 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Missing.sol",
+            "filename": "smartbugs-curated/dataset/access_control/incorrect_constructor_name3.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "Missing.sol",
+            "filename": "smartbugs-curated/dataset/access_control/incorrect_constructor_name3.sol",
+            "function": "Constructor",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}

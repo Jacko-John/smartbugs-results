@@ -1,0 +1,116 @@
+Extract contract ECTools from /sb/spank_chain_payment.sol
+Extract contract HumanStandardToken from /sb/spank_chain_payment.sol
+Extract contract LedgerChannel from /sb/spank_chain_payment.sol
+Extract contract StandardToken from /sb/spank_chain_payment.sol
+Extracted 4 contract(s) from /sb/spank_chain_payment.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+assets/NormalAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+assets/ReentrancyAttacker.sol:8:7: Warning: Return value of low-level calls not used.
+      msg.sender.call(bytes4(255));
+      ^--------------------------^
+assets/ReentrancyAttacker.sol:5:3: Warning: No visibility specified. Defaulting to "public". 
+  function() payable {
+  ^ (Relevant source part starts here and spans across multiple lines).
+>> Fuzz LedgerChannel
+./fuzzMe: line 8:    27 Segmentation fault      (core dumped) ./fuzzer --file contracts/LedgerChannel.sol.json --name LedgerChannel --assets assets/ --duration 148 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+>> Fuzz HumanStandardToken
+** Write stats: 0.011464
+** Write stats: 5.00043
+** Write stats: 10.0035
+** Write stats: 15.0042
+** Write stats: 20.0042
+** Write stats: 25.0026
+** Write stats: 30.0074
+** Write stats: 35.0023
+** Write stats: 40.0066
+** Write stats: 45.008
+** Write stats: 50.0082
+** Write stats: 55.0055
+** Write stats: 60.0059
+** Write stats: 65.0027
+** Write stats: 70.008
+** Write stats: 75.0094
+** Write stats: 80.0056
+** Write stats: 85.0058
+** Write stats: 90.0025
+** Write stats: 95.0072
+** Write stats: 100.009
+** Write stats: 105.001
+** Write stats: 110.01
+** Write stats: 115.01
+** Write stats: 120
+** Write stats: 125.002
+** Write stats: 130.007
+** Write stats: 135.005
+** Write stats: 140.009
+** Write stats: 145.062
+** Write stats: 148.063
+>> Fuzz StandardToken
+** Write stats: 0.01344
+** Write stats: 5.00212
+** Write stats: 10.0009
+** Write stats: 15.0073
+** Write stats: 20.0052
+** Write stats: 25.0054
+** Write stats: 30.003
+** Write stats: 35.0104
+** Write stats: 40.0108
+** Write stats: 45.0093
+** Write stats: 50.0021
+** Write stats: 55.0023
+** Write stats: 60.0004
+** Write stats: 65.0056
+** Write stats: 70.002
+** Write stats: 75.0087
+** Write stats: 80.0047
+** Write stats: 85.0007
+** Write stats: 90.0073
+** Write stats: 95.0058
+** Write stats: 100.007
+** Write stats: 105.007
+** Write stats: 110.003
+** Write stats: 115.003
+** Write stats: 120.002
+** Write stats: 125.001
+** Write stats: 130.011
+** Write stats: 135.006
+** Write stats: 140.005
+** Write stats: 145.002
+** Write stats: 148.039
+>> Fuzz ECTools
+** Write stats: 0.002619
+** Write stats: 5.00015
+** Write stats: 10.0001
+** Write stats: 15.0001
+** Write stats: 20.0001
+** Write stats: 25.0002
+** Write stats: 30.0001
+** Write stats: 35.0001
+** Write stats: 40.0001
+** Write stats: 45.0001
+** Write stats: 50.0001
+** Write stats: 55.0001
+** Write stats: 60.0001
+** Write stats: 65.0002
+** Write stats: 70.0001
+** Write stats: 75.0003
+** Write stats: 80.0002
+** Write stats: 85.0001
+** Write stats: 90.0001
+** Write stats: 95.0002
+** Write stats: 100
+** Write stats: 105
+** Write stats: 110
+** Write stats: 115
+** Write stats: 120
+** Write stats: 125
+** Write stats: 130
+** Write stats: 135
+** Write stats: 140
+** Write stats: 145
+** Write stats: 148

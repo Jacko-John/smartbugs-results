@@ -1,0 +1,66 @@
+{
+    "errors": [],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "MultiplicatorX4.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+            "function": "multiplicate",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "MultiplicatorX4.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+            "function": "withdraw",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "MultiplicatorX4.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+            "function": "Command",
+            "name": "Reentrancy"
+        },
+        {
+            "contract": "MultiplicatorX4.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+            "function": "multiplicate",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "MultiplicatorX4.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+            "function": "withdraw",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "MultiplicatorX4.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+            "function": "Command",
+            "name": "Exception Disorder"
+        },
+        {
+            "contract": "MultiplicatorX4.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+            "function": "multiplicate",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "MultiplicatorX4.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+            "function": "withdraw",
+            "name": "Gasless Send"
+        },
+        {
+            "contract": "MultiplicatorX4.sol",
+            "filename": "smartbugs-curated/dataset/unchecked_low_level_calls/0x3e013fc32a54c4c5b6991ba539dcd0ec4355c859.sol",
+            "function": "Command",
+            "name": "Gasless Send"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "sfuzz",
+        "mode": "solidity",
+        "version": "2023/03/02"
+    }
+}
